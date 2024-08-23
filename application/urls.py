@@ -33,6 +33,7 @@ urlpatterns = [
     path('', include('apps.vendor.urls')),
     path('', include('apps.banner.urls')),
     path('', include('apps.cart.urls')),
+    path('', include('apps.healthcare.urls')),
     path('api-token-auth/', views.obtain_auth_token)
 ]
 if settings.DEBUG:

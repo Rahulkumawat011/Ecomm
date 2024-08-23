@@ -57,6 +57,8 @@ DEFAULT_APPS = [
     'apps.vendor.apps.VendorConfig',
     'apps.banner.apps.BannerConfig',
     'apps.cart.apps.CartConfig',
+    'apps.healthcare.apps.HealthcareConfig',
+
     'widget_tweaks',
     'ckeditor',
     'ckeditor_uploader',
